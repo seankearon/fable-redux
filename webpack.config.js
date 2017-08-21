@@ -26,8 +26,14 @@ module.exports = {
   devServer: {
     contentBase: resolve('./public'),
     port: 8080
-  },
-  module: {
+  }, 
+  externals: {
+      
+      "react": "React"
+      ,"react-dom": "ReactDOM"
+      ,"redux": "Redux"
+    },    
+    module: {
     rules: [
       {
         test: /\.fs(x|proj)?$/,

@@ -8,6 +8,7 @@
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="1.1.14" />
     <PackageReference Include="Fable.React" Version="1.1.0" />
     <PackageReference Include="FSharp.NET.Sdk" Version="1.0.5" />
   </ItemGroup>
