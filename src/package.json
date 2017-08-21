@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "director": "^1.2.8",
+    "redux": "^3.7.2"
+  }
+}
