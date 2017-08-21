@@ -1,0 +1,18 @@
+<Project Sdk="FSharp.NET.Sdk;Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- <Compile Include="../node_modules/fable-import-react/Fable.Import.React.fs" />
+    <Compile Include="../node_modules/fable-import-react/Fable.Helpers.React.fs" /> -->
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.React" Version="1.1.0" />
+    <PackageReference Include="FSharp.NET.Sdk" Version="1.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="../node_modules/fable-core/Fable.Core.dll" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>
